@@ -9,28 +9,35 @@ import XCTest
 @testable import EarthLinkTask
 
 final class EarthLinkTaskTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    var viewModel:AppListViewModel!
+    @MainActor override func setUp() {
+        super.setUp()
+        viewModel = .init()
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    override func tearDown() {
+        super.tearDown()
+        viewModel = nil
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    @MainActor func testFetchList_Success() throws {
+        let requestExpectation = expectation(description: "Request finished")
+        viewModel.fetchList { result in
+            XCTAssertNil(self.viewModel.apiError)
+            XCTAssertNotNil(self.viewModel.collections)
+            requestExpectation.fulfill()
         }
+        wait(for: [requestExpectation], timeout: 5.0)
     }
 
+
+    @MainActor func testFetchList_Fail() throws {
+        let requestExpectation = expectation(description: "Request finished")
+        viewModel.fetchList{ result in
+            XCTAssertNotNil(self.viewModel.apiError)
+            XCTAssertNil(self.viewModel.collections)
+            requestExpectation.fulfill()
+        }
+        wait(for: [requestExpectation], timeout: 5.0)
+    }
 }

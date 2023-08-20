@@ -7,13 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188290FD22D813041ED92CEA /* Pods_EarthLinkTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB8FC573659B46D2008EC9D /* Pods_EarthLinkTaskTests.framework */; };
+		522A1CE22A90FDEC00F2C994 /* LanguageMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A1CE12A90FDEC00F2C994 /* LanguageMenuView.swift */; };
+		522A1CE62A91064400F2C994 /* SplashUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A1CE52A91064400F2C994 /* SplashUIView.swift */; };
+		522A1CE82A91093600F2C994 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A1CE72A91093600F2C994 /* Strings.swift */; };
+		522A1CEA2A91635300F2C994 /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A1CE92A91635300F2C994 /* Share.swift */; };
+		522A1CEC2A9163D900F2C994 /* UIApplication+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A1CEB2A9163D900F2C994 /* UIApplication+Extenstion.swift */; };
+		522A1CEF2A927E6800F2C994 /* AppDetailsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A1CEE2A927E6800F2C994 /* AppDetailsUIView.swift */; };
+		522A1CF12A929AE200F2C994 /* RatingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A1CF02A929AE200F2C994 /* RatingUIView.swift */; };
 		524C68FD2A8F762A00054F10 /* EarthLinkTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C68FC2A8F762A00054F10 /* EarthLinkTaskApp.swift */; };
-		524C68FF2A8F762A00054F10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C68FE2A8F762A00054F10 /* ContentView.swift */; };
-		524C69012A8F762B00054F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524C69002A8F762B00054F10 /* Assets.xcassets */; };
+		524C69012A8F762B00054F10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524C69002A8F762B00054F10 /* Images.xcassets */; };
 		524C69042A8F762B00054F10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524C69032A8F762B00054F10 /* Preview Assets.xcassets */; };
 		524C690E2A8F762B00054F10 /* EarthLinkTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C690D2A8F762B00054F10 /* EarthLinkTaskTests.swift */; };
 		524C69182A8F762B00054F10 /* EarthLinkTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C69172A8F762B00054F10 /* EarthLinkTaskUITests.swift */; };
 		524C691A2A8F762B00054F10 /* EarthLinkTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C69192A8F762B00054F10 /* EarthLinkTaskUITestsLaunchTests.swift */; };
+		524C693E2A8F765C00054F10 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C69272A8F765C00054F10 /* AppModel.swift */; };
+		524C693F2A8F765C00054F10 /* AppListCellUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C69292A8F765C00054F10 /* AppListCellUIView.swift */; };
+		524C69402A8F765C00054F10 /* AppListUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C692A2A8F765C00054F10 /* AppListUIView.swift */; };
+		524C69412A8F765C00054F10 /* AppListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C692B2A8F765C00054F10 /* AppListViewModel.swift */; };
+		524C69432A8F765C00054F10 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C69302A8F765C00054F10 /* ApiError.swift */; };
+		524C69442A8F765C00054F10 /* EnviromentVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C69312A8F765C00054F10 /* EnviromentVariables.swift */; };
+		524C69452A8F765C00054F10 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C69322A8F765C00054F10 /* Result.swift */; };
+		524C69472A8F765C00054F10 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C69342A8F765C00054F10 /* ApiManager.swift */; };
+		524C69482A8F765C00054F10 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C69352A8F765C00054F10 /* ErrorHandler.swift */; };
+		524C69492A8F765C00054F10 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C69362A8F765C00054F10 /* Reachability.swift */; };
+		524C694A2A8F765C00054F10 /* Coniguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C69372A8F765C00054F10 /* Coniguration.swift */; };
+		524C694B2A8F765C00054F10 /* NetworkConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C69382A8F765C00054F10 /* NetworkConst.swift */; };
+		524C694C2A8F765C00054F10 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C69392A8F765C00054F10 /* EndPoint.swift */; };
+		524C694D2A8F765C00054F10 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C693B2A8F765C00054F10 /* AlertView.swift */; };
+		524C694E2A8F765C00054F10 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C693C2A8F765C00054F10 /* TextView.swift */; };
+		524C694F2A8F765C00054F10 /* DeviceRotationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C693D2A8F765C00054F10 /* DeviceRotationViewModifier.swift */; };
+		52D65FB42A90DE61001B0067 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D65FB32A90DE61001B0067 /* Colors.xcassets */; };
+		52D65FB82A90E168001B0067 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D65FB72A90E168001B0067 /* SearchBar.swift */; };
+		52D65FBB2A90E201001B0067 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D65FBA2A90E201001B0067 /* Color+Extension.swift */; };
+		52D65FBD2A90E3D1001B0067 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D65FBC2A90E3D1001B0067 /* Fonts.swift */; };
+		52D65FBF2A90E413001B0067 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D65FBE2A90E413001B0067 /* Const.swift */; };
+		52D65FC12A90E4A7001B0067 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D65FC02A90E4A7001B0067 /* Language.swift */; };
+		52D65FC42A90E4E5001B0067 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D65FC32A90E4E5001B0067 /* LocalStorage.swift */; };
+		52D65FC62A90E59C001B0067 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D65FC52A90E59C001B0067 /* String+Extension.swift */; };
+		52D65FDB2A90EED7001B0067 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D65FD62A90EED7001B0067 /* Lato-Medium.ttf */; };
+		52D65FDC2A90EED7001B0067 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D65FD72A90EED7001B0067 /* Lato-Light.ttf */; };
+		52D65FDD2A90EED7001B0067 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D65FD82A90EED7001B0067 /* Lato-Regular.ttf */; };
+		52D65FDE2A90EED7001B0067 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D65FD92A90EED7001B0067 /* Lato-Bold.ttf */; };
+		52D65FE22A90F0C6001B0067 /* RequestsInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D65FE12A90F0C6001B0067 /* RequestsInterceptor.swift */; };
+		6714CB1522BF3CC52F2A767E /* Pods_EarthLinkTask_EarthLinkTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85BBE2B1765D1AC4C6A2FFB /* Pods_EarthLinkTask_EarthLinkTaskUITests.framework */; };
+		EF7F0DD9753D131E829F7222 /* Pods_EarthLinkTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FC3320E3E3331AE66C3877 /* Pods_EarthLinkTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +72,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C7E5A6ED10F486345EACFE9 /* Pods-EarthLinkTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarthLinkTask.release.xcconfig"; path = "Target Support Files/Pods-EarthLinkTask/Pods-EarthLinkTask.release.xcconfig"; sourceTree = "<group>"; };
+		263700683B5CE947309D71F4 /* Pods-EarthLinkTask-EarthLinkTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarthLinkTask-EarthLinkTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-EarthLinkTask-EarthLinkTaskUITests/Pods-EarthLinkTask-EarthLinkTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51FC3320E3E3331AE66C3877 /* Pods_EarthLinkTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarthLinkTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		522A1CE12A90FDEC00F2C994 /* LanguageMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageMenuView.swift; sourceTree = "<group>"; };
+		522A1CE52A91064400F2C994 /* SplashUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashUIView.swift; sourceTree = "<group>"; };
+		522A1CE72A91093600F2C994 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		522A1CE92A91635300F2C994 /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
+		522A1CEB2A9163D900F2C994 /* UIApplication+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extenstion.swift"; sourceTree = "<group>"; };
+		522A1CEE2A927E6800F2C994 /* AppDetailsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailsUIView.swift; sourceTree = "<group>"; };
+		522A1CF02A929AE200F2C994 /* RatingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingUIView.swift; sourceTree = "<group>"; };
 		524C68F92A8F762A00054F10 /* EarthLinkTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthLinkTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524C68FC2A8F762A00054F10 /* EarthLinkTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthLinkTaskApp.swift; sourceTree = "<group>"; };
-		524C68FE2A8F762A00054F10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		524C69002A8F762B00054F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524C69002A8F762B00054F10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		524C69032A8F762B00054F10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		524C69092A8F762B00054F10 /* EarthLinkTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthLinkTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524C690D2A8F762B00054F10 /* EarthLinkTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthLinkTaskTests.swift; sourceTree = "<group>"; };
 		524C69132A8F762B00054F10 /* EarthLinkTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthLinkTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524C69172A8F762B00054F10 /* EarthLinkTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthLinkTaskUITests.swift; sourceTree = "<group>"; };
 		524C69192A8F762B00054F10 /* EarthLinkTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthLinkTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		524C69272A8F765C00054F10 /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		524C69292A8F765C00054F10 /* AppListCellUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppListCellUIView.swift; sourceTree = "<group>"; };
+		524C692A2A8F765C00054F10 /* AppListUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppListUIView.swift; sourceTree = "<group>"; };
+		524C692B2A8F765C00054F10 /* AppListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppListViewModel.swift; sourceTree = "<group>"; };
+		524C69302A8F765C00054F10 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		524C69312A8F765C00054F10 /* EnviromentVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnviromentVariables.swift; sourceTree = "<group>"; };
+		524C69322A8F765C00054F10 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		524C69342A8F765C00054F10 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		524C69352A8F765C00054F10 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		524C69362A8F765C00054F10 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		524C69372A8F765C00054F10 /* Coniguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coniguration.swift; sourceTree = "<group>"; };
+		524C69382A8F765C00054F10 /* NetworkConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConst.swift; sourceTree = "<group>"; };
+		524C69392A8F765C00054F10 /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		524C693B2A8F765C00054F10 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		524C693C2A8F765C00054F10 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		524C693D2A8F765C00054F10 /* DeviceRotationViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceRotationViewModifier.swift; sourceTree = "<group>"; };
+		52D65FB32A90DE61001B0067 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		52D65FB72A90E168001B0067 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		52D65FBA2A90E201001B0067 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		52D65FBC2A90E3D1001B0067 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		52D65FBE2A90E413001B0067 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		52D65FC02A90E4A7001B0067 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		52D65FC32A90E4E5001B0067 /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		52D65FC52A90E59C001B0067 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		52D65FD62A90EED7001B0067 /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		52D65FD72A90EED7001B0067 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		52D65FD82A90EED7001B0067 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		52D65FD92A90EED7001B0067 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		52D65FE02A90EF2E001B0067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		52D65FE12A90F0C6001B0067 /* RequestsInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsInterceptor.swift; sourceTree = "<group>"; };
+		72B627E722F7E364F8BB6518 /* Pods-EarthLinkTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarthLinkTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-EarthLinkTaskTests/Pods-EarthLinkTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAB8FC573659B46D2008EC9D /* Pods_EarthLinkTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarthLinkTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2876CCD5B41BF6DB4459F42 /* Pods-EarthLinkTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarthLinkTaskTests.release.xcconfig"; path = "Target Support Files/Pods-EarthLinkTaskTests/Pods-EarthLinkTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2EEC1A12106CB51A242EA48 /* Pods-EarthLinkTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarthLinkTask.debug.xcconfig"; path = "Target Support Files/Pods-EarthLinkTask/Pods-EarthLinkTask.debug.xcconfig"; sourceTree = "<group>"; };
+		F305EE049D0DCBD9B635BD41 /* Pods-EarthLinkTask-EarthLinkTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarthLinkTask-EarthLinkTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-EarthLinkTask-EarthLinkTaskUITests/Pods-EarthLinkTask-EarthLinkTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F85BBE2B1765D1AC4C6A2FFB /* Pods_EarthLinkTask_EarthLinkTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarthLinkTask_EarthLinkTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7F0DD9753D131E829F7222 /* Pods_EarthLinkTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188290FD22D813041ED92CEA /* Pods_EarthLinkTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +150,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6714CB1522BF3CC52F2A767E /* Pods_EarthLinkTask_EarthLinkTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B0B36F5C814FF5FE38A47E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51FC3320E3E3331AE66C3877 /* Pods_EarthLinkTask.framework */,
+				F85BBE2B1765D1AC4C6A2FFB /* Pods_EarthLinkTask_EarthLinkTaskUITests.framework */,
+				AAB8FC573659B46D2008EC9D /* Pods_EarthLinkTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		522A1CE32A91062A00F2C994 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				522A1CE52A91064400F2C994 /* SplashUIView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		522A1CE42A91063000F2C994 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				524C69292A8F765C00054F10 /* AppListCellUIView.swift */,
+				524C692A2A8F765C00054F10 /* AppListUIView.swift */,
+				524C692B2A8F765C00054F10 /* AppListViewModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		522A1CED2A927E4300F2C994 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				522A1CEE2A927E6800F2C994 /* AppDetailsUIView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 		524C68F02A8F762A00054F10 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +200,8 @@
 				524C690C2A8F762B00054F10 /* EarthLinkTaskTests */,
 				524C69162A8F762B00054F10 /* EarthLinkTaskUITests */,
 				524C68FA2A8F762A00054F10 /* Products */,
+				7A76469A2750B2194A5CA91F /* Pods */,
+				1B0B36F5C814FF5FE38A47E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +218,16 @@
 		524C68FB2A8F762A00054F10 /* EarthLinkTask */ = {
 			isa = PBXGroup;
 			children = (
+				52D65FE02A90EF2E001B0067 /* Info.plist */,
+				524C69282A8F765C00054F10 /* Screens */,
+				52D65FC22A90E4D9001B0067 /* Storage */,
+				52D65FB92A90E1EE001B0067 /* Extension */,
+				52D65FB22A90DE3B001B0067 /* Utils */,
+				524C69262A8F765C00054F10 /* Entities */,
+				524C692F2A8F765C00054F10 /* Network */,
+				524C692C2A8F765C00054F10 /* Resources */,
+				524C693A2A8F765C00054F10 /* UIViews */,
 				524C68FC2A8F762A00054F10 /* EarthLinkTaskApp.swift */,
-				524C68FE2A8F762A00054F10 /* ContentView.swift */,
-				524C69002A8F762B00054F10 /* Assets.xcassets */,
 				524C69022A8F762B00054F10 /* Preview Content */,
 			);
 			path = EarthLinkTask;
@@ -127,6 +258,118 @@
 			path = EarthLinkTaskUITests;
 			sourceTree = "<group>";
 		};
+		524C69262A8F765C00054F10 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				524C69302A8F765C00054F10 /* ApiError.swift */,
+				524C69272A8F765C00054F10 /* AppModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		524C69282A8F765C00054F10 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				522A1CED2A927E4300F2C994 /* Details */,
+				522A1CE42A91063000F2C994 /* App */,
+				522A1CE32A91062A00F2C994 /* Splash */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		524C692C2A8F765C00054F10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				524C69002A8F762B00054F10 /* Images.xcassets */,
+				52D65FB32A90DE61001B0067 /* Colors.xcassets */,
+				524C692D2A8F765C00054F10 /* Fonts */,
+				522A1CE72A91093600F2C994 /* Strings.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		524C692D2A8F765C00054F10 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				52D65FD92A90EED7001B0067 /* Lato-Bold.ttf */,
+				52D65FD72A90EED7001B0067 /* Lato-Light.ttf */,
+				52D65FD62A90EED7001B0067 /* Lato-Medium.ttf */,
+				52D65FD82A90EED7001B0067 /* Lato-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		524C692F2A8F765C00054F10 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				524C69312A8F765C00054F10 /* EnviromentVariables.swift */,
+				524C69322A8F765C00054F10 /* Result.swift */,
+				524C69342A8F765C00054F10 /* ApiManager.swift */,
+				524C69352A8F765C00054F10 /* ErrorHandler.swift */,
+				524C69362A8F765C00054F10 /* Reachability.swift */,
+				524C69372A8F765C00054F10 /* Coniguration.swift */,
+				524C69382A8F765C00054F10 /* NetworkConst.swift */,
+				524C69392A8F765C00054F10 /* EndPoint.swift */,
+				52D65FE12A90F0C6001B0067 /* RequestsInterceptor.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		524C693A2A8F765C00054F10 /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				524C693B2A8F765C00054F10 /* AlertView.swift */,
+				524C693C2A8F765C00054F10 /* TextView.swift */,
+				524C693D2A8F765C00054F10 /* DeviceRotationViewModifier.swift */,
+				52D65FB72A90E168001B0067 /* SearchBar.swift */,
+				522A1CE12A90FDEC00F2C994 /* LanguageMenuView.swift */,
+				522A1CF02A929AE200F2C994 /* RatingUIView.swift */,
+			);
+			path = UIViews;
+			sourceTree = "<group>";
+		};
+		52D65FB22A90DE3B001B0067 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				52D65FBC2A90E3D1001B0067 /* Fonts.swift */,
+				52D65FBE2A90E413001B0067 /* Const.swift */,
+				52D65FC02A90E4A7001B0067 /* Language.swift */,
+				522A1CE92A91635300F2C994 /* Share.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		52D65FB92A90E1EE001B0067 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				52D65FBA2A90E201001B0067 /* Color+Extension.swift */,
+				52D65FC52A90E59C001B0067 /* String+Extension.swift */,
+				522A1CEB2A9163D900F2C994 /* UIApplication+Extenstion.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		52D65FC22A90E4D9001B0067 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				52D65FC32A90E4E5001B0067 /* LocalStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		7A76469A2750B2194A5CA91F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2EEC1A12106CB51A242EA48 /* Pods-EarthLinkTask.debug.xcconfig */,
+				1C7E5A6ED10F486345EACFE9 /* Pods-EarthLinkTask.release.xcconfig */,
+				F305EE049D0DCBD9B635BD41 /* Pods-EarthLinkTask-EarthLinkTaskUITests.debug.xcconfig */,
+				263700683B5CE947309D71F4 /* Pods-EarthLinkTask-EarthLinkTaskUITests.release.xcconfig */,
+				72B627E722F7E364F8BB6518 /* Pods-EarthLinkTaskTests.debug.xcconfig */,
+				B2876CCD5B41BF6DB4459F42 /* Pods-EarthLinkTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +377,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 524C691D2A8F762B00054F10 /* Build configuration list for PBXNativeTarget "EarthLinkTask" */;
 			buildPhases = (
+				8F18B967FC67A71179FACB07 /* [CP] Check Pods Manifest.lock */,
 				524C68F52A8F762A00054F10 /* Sources */,
 				524C68F62A8F762A00054F10 /* Frameworks */,
 				524C68F72A8F762A00054F10 /* Resources */,
+				E00EF58A5A9CE53DE486BEE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +396,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 524C69202A8F762B00054F10 /* Build configuration list for PBXNativeTarget "EarthLinkTaskTests" */;
 			buildPhases = (
+				10FE4F92F26CC07D0A23624D /* [CP] Check Pods Manifest.lock */,
 				524C69052A8F762B00054F10 /* Sources */,
 				524C69062A8F762B00054F10 /* Frameworks */,
 				524C69072A8F762B00054F10 /* Resources */,
@@ -169,9 +415,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 524C69232A8F762B00054F10 /* Build configuration list for PBXNativeTarget "EarthLinkTaskUITests" */;
 			buildPhases = (
+				B2C172A6FDF8C11270953A2B /* [CP] Check Pods Manifest.lock */,
 				524C690F2A8F762B00054F10 /* Sources */,
 				524C69102A8F762B00054F10 /* Frameworks */,
 				524C69112A8F762B00054F10 /* Resources */,
+				E9BA31C3DA7110F46DF8BE1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +461,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 524C68F02A8F762A00054F10;
 			productRefGroup = 524C68FA2A8F762A00054F10 /* Products */;
@@ -232,7 +481,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				524C69042A8F762B00054F10 /* Preview Assets.xcassets in Resources */,
-				524C69012A8F762B00054F10 /* Assets.xcassets in Resources */,
+				52D65FDB2A90EED7001B0067 /* Lato-Medium.ttf in Resources */,
+				52D65FB42A90DE61001B0067 /* Colors.xcassets in Resources */,
+				52D65FDD2A90EED7001B0067 /* Lato-Regular.ttf in Resources */,
+				524C69012A8F762B00054F10 /* Images.xcassets in Resources */,
+				52D65FDE2A90EED7001B0067 /* Lato-Bold.ttf in Resources */,
+				52D65FDC2A90EED7001B0067 /* Lato-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +506,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10FE4F92F26CC07D0A23624D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EarthLinkTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F18B967FC67A71179FACB07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EarthLinkTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2C172A6FDF8C11270953A2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EarthLinkTask-EarthLinkTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E00EF58A5A9CE53DE486BEE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EarthLinkTask/Pods-EarthLinkTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EarthLinkTask/Pods-EarthLinkTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EarthLinkTask/Pods-EarthLinkTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9BA31C3DA7110F46DF8BE1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EarthLinkTask-EarthLinkTaskUITests/Pods-EarthLinkTask-EarthLinkTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EarthLinkTask-EarthLinkTaskUITests/Pods-EarthLinkTask-EarthLinkTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EarthLinkTask-EarthLinkTaskUITests/Pods-EarthLinkTask-EarthLinkTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		524C68F52A8F762A00054F10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524C68FF2A8F762A00054F10 /* ContentView.swift in Sources */,
+				52D65FE22A90F0C6001B0067 /* RequestsInterceptor.swift in Sources */,
+				524C69452A8F765C00054F10 /* Result.swift in Sources */,
+				524C69432A8F765C00054F10 /* ApiError.swift in Sources */,
+				522A1CE22A90FDEC00F2C994 /* LanguageMenuView.swift in Sources */,
+				524C693F2A8F765C00054F10 /* AppListCellUIView.swift in Sources */,
+				52D65FBF2A90E413001B0067 /* Const.swift in Sources */,
+				522A1CE82A91093600F2C994 /* Strings.swift in Sources */,
+				524C69402A8F765C00054F10 /* AppListUIView.swift in Sources */,
+				52D65FC62A90E59C001B0067 /* String+Extension.swift in Sources */,
+				524C69472A8F765C00054F10 /* ApiManager.swift in Sources */,
+				522A1CEA2A91635300F2C994 /* Share.swift in Sources */,
+				522A1CF12A929AE200F2C994 /* RatingUIView.swift in Sources */,
+				522A1CEF2A927E6800F2C994 /* AppDetailsUIView.swift in Sources */,
+				524C69442A8F765C00054F10 /* EnviromentVariables.swift in Sources */,
+				524C693E2A8F765C00054F10 /* AppModel.swift in Sources */,
+				52D65FBD2A90E3D1001B0067 /* Fonts.swift in Sources */,
+				52D65FBB2A90E201001B0067 /* Color+Extension.swift in Sources */,
+				52D65FC42A90E4E5001B0067 /* LocalStorage.swift in Sources */,
+				524C69482A8F765C00054F10 /* ErrorHandler.swift in Sources */,
+				522A1CEC2A9163D900F2C994 /* UIApplication+Extenstion.swift in Sources */,
+				524C694C2A8F765C00054F10 /* EndPoint.swift in Sources */,
+				524C69412A8F765C00054F10 /* AppListViewModel.swift in Sources */,
+				522A1CE62A91064400F2C994 /* SplashUIView.swift in Sources */,
+				524C694A2A8F765C00054F10 /* Coniguration.swift in Sources */,
 				524C68FD2A8F762A00054F10 /* EarthLinkTaskApp.swift in Sources */,
+				52D65FB82A90E168001B0067 /* SearchBar.swift in Sources */,
+				524C694F2A8F765C00054F10 /* DeviceRotationViewModifier.swift in Sources */,
+				524C69492A8F765C00054F10 /* Reachability.swift in Sources */,
+				524C694E2A8F765C00054F10 /* TextView.swift in Sources */,
+				524C694B2A8F765C00054F10 /* NetworkConst.swift in Sources */,
+				52D65FC12A90E4A7001B0067 /* Language.swift in Sources */,
+				524C694D2A8F765C00054F10 /* AlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +686,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -359,6 +747,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -411,19 +800,21 @@
 		};
 		524C691E2A8F762B00054F10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2EEC1A12106CB51A242EA48 /* Pods-EarthLinkTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EarthLinkTask/Preview Content\"";
+				DEVELOPMENT_TEAM = MGK4TBDBZ9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EarthLinkTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,27 +822,32 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.earthlink.task.EarthLinkTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		524C691F2A8F762B00054F10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C7E5A6ED10F486345EACFE9 /* Pods-EarthLinkTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EarthLinkTask/Preview Content\"";
+				DEVELOPMENT_TEAM = MGK4TBDBZ9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EarthLinkTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,14 +855,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.earthlink.task.EarthLinkTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		524C69212A8F762B00054F10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B627E722F7E364F8BB6518 /* Pods-EarthLinkTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +886,7 @@
 		};
 		524C69222A8F762B00054F10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2876CCD5B41BF6DB4459F42 /* Pods-EarthLinkTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +906,7 @@
 		};
 		524C69242A8F762B00054F10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F305EE049D0DCBD9B635BD41 /* Pods-EarthLinkTask-EarthLinkTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +924,7 @@
 		};
 		524C69252A8F762B00054F10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263700683B5CE947309D71F4 /* Pods-EarthLinkTask-EarthLinkTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
