@@ -9,10 +9,10 @@
 import Foundation
 
 struct AppDataModel : Codable, Equatable {
-    let MustPlay : [AppModel]
-    let TopApps : [AppModel]
-    let EditorsChoice : [AppModel]
-    let AppOfTheDay : [AppModel]
+    let MustPlay : [AppModel]?
+    let TopApps : [AppModel]?
+    let EditorsChoice : [AppModel]?
+    let AppOfTheDay : [AppModel]?
 }
 
 struct AppModel : Codable, Equatable {

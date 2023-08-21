@@ -41,8 +41,5 @@ struct AppListCellUIView: View {
               .padding(.trailing, 10)
               .buttonStyle(.borderless)
         }
-
-//        .modifier(AlertView(showAlert: $showAlert, title: "Item Tapped", message: collection.name, actionName: "OK", alertType: regularAlert) {
-//        })
     }
 }

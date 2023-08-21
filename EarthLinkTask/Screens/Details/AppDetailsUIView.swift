@@ -49,15 +49,12 @@ struct AppDetailsUIView: View {
                     }
                     }
                 }
-
-
-
             Divider().padding(.leading, 20).padding(.trailing, 20).padding(.top, 20)
             HStack {
                 VStack (alignment: .center){
-                    TextView(titleName: appModel.ratingCount + "ratingCount".localize, colorCode: colorScheme == .dark ? Color.white : .gray , fontSize: 12, fontFamilyName: REGULAR_FONT).padding(.top, 10)
+                    TextView(titleName: appModel.ratingCount + "ratingCount".localize, colorCode: colorScheme == .dark ? Color.white : .gray , fontSize: 12, fontFamilyName: REGULAR_FONT)
                     TextView(titleName: appModel.rating, colorCode: colorScheme == .dark ? Color.white : Color.colorDarkGray , fontSize: 18, fontFamilyName: REGULAR_FONT).padding(.top, 5)
-                    RatingUIView(rating: $rating).frame(width: 30, height: 40).padding(.leading, 20)
+//                    RatingUIView(rating: $rating).frame(width: 30, height: 40).padding(.leading, 20)
                 }
                 Divider().padding(.leading, 40).padding(.trailing, 20).padding(.top, 20).padding(.bottom, 20)
                 VStack(alignment: .center) {

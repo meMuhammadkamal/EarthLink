@@ -31,16 +31,20 @@ private static let dictionaryAR: [ String: String ] =
  "ratingCount":"تقييم",
  "yearsOld":"سنة",
  "age":"العمر",
+ "OK":"موافق",
+ "noFeatured":"لا يوجد تطبيقات مميزة الان",
  "GET" :"تحميل"
  ]
 
     private static let dictionaryEN: [ String: String ] =
     ["search": "Search",
      "GET":"GET",
+     "OK":"OK",
      "ratingCount":"Ratings",
      "age":"Age",
      "yearsOld":"Years Old",
      "topApps":"Top Apps Now",
+     "noFeatured":"No Featured Apps for Now",
       "appOfTheDay":"App of the Day",
       "featuredApps":"Featured Apps",
      "editorsChoice":"Editor's Choice",
